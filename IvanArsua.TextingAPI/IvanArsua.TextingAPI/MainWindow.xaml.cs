@@ -29,6 +29,7 @@ namespace IvanArsua.TextingAPI
         {
             charCount();
             txtMessage.MaxLength = 100;
+            
         }
 
         private void charCount()
@@ -37,5 +38,6 @@ namespace IvanArsua.TextingAPI
             string charcount = j.ToString() + " " + "/" + " " + "100";
             CharCount.Text = charcount;
         }
+
     }
 }

@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IvanArsua.TextingAPI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="461" Width="388">
+        Title="MainWindow" Height="485" Width="388">
     <Grid>
-        <Label x:Name="lblSendSms" Content="Send Your SMS" HorizontalAlignment="Left" Height="28" Margin="20,20,0,0" VerticalAlignment="Top" Width="266"/>
-        <Label x:Name="lblPhoneNumber" Content="Phone Number:" HorizontalAlignment="Left" Height="28" Margin="20,61,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.5,0.5">
+        <Label x:Name="lblSendSms" Content="Send Your SMS" HorizontalAlignment="Left" Height="42" Margin="20,20,0,0" VerticalAlignment="Top" Width="266" FontSize="24"/>
+        <Label x:Name="lblPhoneNumber" Content="Phone Number:" HorizontalAlignment="Left" Height="28" Margin="17,76,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -18,9 +18,9 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="21" Margin="118,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
-        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="214" Margin="29,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" TextChanged="txtMessage_TextChanged"/>
-        <Label x:Name="lblMessage" Content="Message:" HorizontalAlignment="Left" Height="28" Margin="20,96,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="21" Margin="114,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="214" Margin="29,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" TextChanged="txtMessage_TextChanged" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" IsReadOnly="False" AcceptsReturn="True"/>
+        <Label x:Name="lblMessage" Content="Message:" HorizontalAlignment="Left" Height="28" Margin="19,110,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -30,7 +30,8 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBlock x:Name="CharCount" Text=" 0 / 100" HorizontalAlignment="Left" Height="18" Margin="29,351,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="73"/>
+        <TextBlock x:Name="CharCount" Text=" 0 / 100" HorizontalAlignment="Left" Height="18" Margin="29,371,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="73"/>
+        <Button x:Name="lblSend" Content="Send" HorizontalAlignment="Left" Height="28" Margin="217,390,0,0" VerticalAlignment="Top" Width="126"/>
 
     </Grid>
 </Window>
