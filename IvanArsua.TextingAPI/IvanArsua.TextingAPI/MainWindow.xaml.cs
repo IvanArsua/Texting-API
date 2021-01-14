@@ -24,5 +24,18 @@ namespace IvanArsua.TextingAPI
         {
             InitializeComponent();
         }
+
+        private void txtMessage_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            charCount();
+            txtMessage.MaxLength = 100;
+        }
+
+        private void charCount()
+        {
+            int j = txtMessage.Text.Length;
+            string charcount = j.ToString() + " " + "/" + " " + "100";
+            CharCount.Text = charcount;
+        }
     }
 }
