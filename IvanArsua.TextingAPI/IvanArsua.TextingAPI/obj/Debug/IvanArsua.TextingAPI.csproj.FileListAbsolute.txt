@@ -13,3 +13,6 @@ C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\Iva
 C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\IvanArsua.TextingAPI\obj\Debug\IvanArsua.TextingAPI.csproj.CoreCompileInputs.cache
 C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\IvanArsua.TextingAPI\obj\Debug\IvanArsua.TextingAPI.exe
 C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\IvanArsua.TextingAPI\obj\Debug\IvanArsua.TextingAPI.pdb
+C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\IvanArsua.TextingAPI\bin\Debug\RestSharp.dll
+C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\IvanArsua.TextingAPI\bin\Debug\RestSharp.xml
+C:\Users\Dell\Documents\Major-ICT Activties\Texting API\IvanArsua.TextingAPI\IvanArsua.TextingAPI\obj\Debug\IvanArsua.TextingAPI.csproj.CopyComplete

@@ -39,5 +39,22 @@ namespace IvanArsua.TextingAPI
             CharCount.Text = charcount;
         }
 
+        private void btnSend_Click(object sender, RoutedEventArgs e)
+        {
+            string PhoneNumber = txtPhoneNumber.Text;
+            string Message = txtMessage.Text;
+            
+
+            var client = new RestSharp.RestClient("https://www.itexmo.com/php_api/api.php");
+
+            var request = new RestSharp.RestRequest(RestSharp.Method.POST);
+                request.AddParameter("1", PhoneNumber);
+                request.AddParameter("2", Message);
+                request.AddParameter("3", "TR-IVANJ452032_L4VDB");
+                request.AddParameter("passwd", "k&}p}kadsi");
+
+            client.Execute(request);
+        }
+
     }
 }

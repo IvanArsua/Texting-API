@@ -18,8 +18,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="21" Margin="114,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
-        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="214" Margin="29,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="314" TextChanged="txtMessage_TextChanged" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" IsReadOnly="False" AcceptsReturn="True"/>
+        <TextBox x:Name="txtMessage" HorizontalAlignment="Left" Height="214" Margin="29,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" TextChanged="txtMessage_TextChanged" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" IsReadOnly="False" AcceptsReturn="True"/>
         <Label x:Name="lblMessage" Content="Message:" HorizontalAlignment="Left" Height="28" Margin="19,110,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
@@ -31,7 +30,8 @@
             </Label.RenderTransform>
         </Label>
         <TextBlock x:Name="CharCount" Text=" 0 / 100" HorizontalAlignment="Left" Height="18" Margin="29,371,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="73"/>
-        <Button x:Name="lblSend" Content="Send" HorizontalAlignment="Left" Height="28" Margin="217,390,0,0" VerticalAlignment="Top" Width="126"/>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Left" Height="24" Margin="223,392,0,0" VerticalAlignment="Top" Width="133" Click="btnSend_Click"/>
+        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="21" Margin="110,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
 
     </Grid>
 </Window>
